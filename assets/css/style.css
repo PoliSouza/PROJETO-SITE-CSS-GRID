@@ -1,0 +1,584 @@
+:root{
+    --cor-primaria: #fff;
+    --cor-secundaria: #1a1a2e;
+    --font-family: 'oswald';
+}
+
+(@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap');)
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+
+h1 {
+    color: var(--cor-secundaria);
+    font-size: 80px;
+    font-weight: bold;
+    font-family: var(--font-family), 'oswald', sans-serif;
+    line-height: 100px;
+    margin-left: 250px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: var(--font-family), 'oswald', sans-serif;
+    line-height: 45px;
+    margin: 20px 0px;
+}
+
+.bar {
+    background-color: var(--cor-secundaria);
+    border-radius: 5px;
+    width: 168px;
+    height: 28px;
+}
+
+.bar--area {
+    background-color: var(--cor-primaria);
+    border-radius: 5px;
+    width: 168px;
+    height: 28px;
+}
+
+.button {
+    display: inline-block;
+    border: 2px solid var(--cor-secundaria);
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+.button--area {
+    display: inline-block;
+    border: 2px solid var(--cor-primaria);
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: var(--cor-primaria);
+    text-decoration: none;
+}
+
+.button:hover {
+    color:#fff;
+    background-color: var(--cor-secundaria);
+}
+
+.button--area:hover {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+}
+
+header .line {
+    background-color: var(--cor-secundaria);
+    height: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.container--logo img {
+    width: 500px;
+    height: 100px;
+}
+
+.container--menu {
+    width: 64px;
+    height: 64px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.banner {
+    display: flex;
+    background-image: url("../images/Plano\ de\ fundo.jpg");    
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.banner--title {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 150px;
+    font-weight: bold;
+    font-family: var(--font-family), 'oswald', sans-serif;
+    color: var(--cor-primaria);
+}
+
+#banner--span {
+    color: var(--cor-secundaria);
+    font-size: 60px;
+    font-weight: bold;
+    font-family: var(--font-family), 'oswald', sans-serif;
+    padding-left: 10px;
+    padding-top: 150px;
+}
+
+.area1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+}
+
+.area1--content{
+    padding: 80px;
+}
+
+.area--quote {
+    margin-bottom: 30px;
+}
+
+.area--text {
+    margin-bottom: 50px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.area1--img1 {
+    height: 450px;
+    background-image: url(/assets/images/Foto\ Clayton\ e\ Poliana.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+.area1--img2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    background-image: url(/assets/images/Coroa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.area2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area2--content {
+    padding: 80px;
+}
+
+.area2--img1 {
+    height: 600px;
+    background-image: url(/assets/images/Guitarra\ branca\ com\ close\ captadores.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.area2--img2 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    background-image: url(/assets/images/Guitarra\ luz\ central.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.area3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+}
+
+.area3--content {
+    padding: 80px;
+}
+
+.area3--img1 {
+    height: 600px;
+    background-image: url(/assets/images/Guitarra\ eletrica\ preta\ fundo\ de\ cimento.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.area3--img2 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    background-image: url(/assets/images/Guitarra\ celeste\ com\ caixa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.area4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area4--content {
+    padding: 80px;
+}
+
+.area4--img1 {
+    height: 600px;
+    background-image: url(/assets/images/Paletas.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.area4--img2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    background-image: url(/assets/images/Guitarra\ branca\ metade.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.area5 {
+    background-image: url(/assets/images/Fundo\ preto\ e\ roxo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.psalm {
+    color: var(--cor-primaria);
+    font-size: 35px;
+    font-weight: bold;
+    font-family: var(--font-family), 'oswald', sans-serif;
+    line-height: 45px;
+    text-align: center;
+    padding-top: 220px;
+}
+
+.footer {
+    display: flex;
+    padding: 20px;
+    justify-content:center;
+}
+
+.redesocial {
+    margin: 30px;
+    padding: 20px;
+    align-items: center;
+    
+}
+
+.text {
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: var(--cor-secundaria);
+}
+
+@media (min-width: 769px) and (max-width: 1140px) {
+   
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    h1 {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 100px;
+    margin-left: 80px;
+    }
+
+    .banner {
+        display: block;
+    }
+
+    .banner--title {
+        display: inline-block;
+        text-align: right;
+    }
+
+    #banner--span {
+        font-size: 50px;
+        padding-left: 0px;
+        padding-top: 0px;
+    }    
+
+}
+
+
+@media (min-width: 426px) and (max-width: 768px) {
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    h1 {
+        font-size: 60px;
+        font-weight: bold;
+        line-height: 100px;
+        margin-left: 10px;
+    }
+    
+    .banner {
+        display: block;
+    }
+    
+    .banner--title {
+        display: inline-block;
+        
+    }
+    
+    #banner--span {
+        font-size: 40px;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .container--logo img {
+        width: 300px;
+        height: 50px;
+    }
+    
+    .container--menu img {
+        width: 50px;
+        height: 50px;
+        padding-right: 10px;
+    }
+
+    .area1 {
+        grid-template-columns: 3fr 2fr;
+    }
+
+    .area2 {
+        grid-template-columns: 2fr 3fr;
+    }
+
+    .area3 {
+        grid-template-columns: 2fr 3fr;
+    }
+
+    .area3--img2 {
+        background-size: contain;
+    }
+
+    .area4 {
+        grid-template-columns: 3fr 2fr;
+    }
+
+    .area5 {
+        height: 300px;
+    }
+
+    .psalm {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .redesocial {
+        margin: 10px;
+        padding: 0px;
+        }
+    
+    .redesocial img {
+        width: 60px;
+        height: 60px;
+    }
+
+    footer {
+        display: block;
+        font-size: 12px;
+        padding: 20px 40px;
+    }
+
+}
+
+@media (min-width: 330px) and (max-width: 426px) {
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 20px;
+        margin-left: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .banner {
+        display: block;
+    }
+    
+    .banner--title {
+        display: inline-block;
+        text-align: right;
+    }
+    
+    #banner--span {
+        font-size: 20px;
+        padding-left: 0px;
+        padding-top: 0px;
+    } 
+
+    .container--logo img {
+        width: 200px;
+        height: 50px;
+    }
+
+    .container--menu img {
+        width: 50px;
+        height: 50px;
+        padding-right: 10px;
+    }
+    
+    .area1,
+    .area2,
+    .area3,
+    .area4 {
+        grid-template-columns: 1fr;
+    }
+
+    .area1--content,
+    .area2--content,
+    .area3--content,
+    .area4--content {
+        padding: 40px;
+    }
+
+    .area5 {
+        height: 300px;
+    }
+
+    .psalm {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .redesocial {
+        margin: 10px;
+        padding: 0px;
+        }
+    
+    .redesocial img {
+        width: 60px;
+        height: 60px;
+    }
+
+    footer {
+        display: block;
+        font-size: 12px;
+        padding: 20px 40px;
+    }
+
+}
+
+@media (max-width: 330px) {
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 20px;
+        margin-left: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .banner {
+        display: block;
+    }
+    
+    .banner--title {
+        display: inline-block;
+        text-align: right;
+    }
+    
+    #banner--span {
+        font-size: 20px;
+        padding-left: 0px;
+        padding-top: 0px;
+    } 
+
+    .container--logo img {
+        width: 200px;
+        height: 50px;
+    }
+
+    .container--menu img {
+       display: none;
+    }
+    
+    .area1,
+    .area2,
+    .area3,
+    .area4 {
+        grid-template-columns: 1fr;
+    }
+
+    .area1--content,
+    .area2--content,
+    .area3--content,
+    .area4--content {
+        padding: 40px;
+    }
+
+    .area5 {
+        height: 300px;
+    }
+
+    .psalm {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .redesocial {
+        margin: 10px;
+        padding: 0px;
+        }
+    
+    .redesocial img {
+        width: 60px;
+        height: 60px;
+    }
+
+    footer {
+        display: block;
+        font-size: 12px;
+        padding: 20px 40px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
